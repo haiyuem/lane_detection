@@ -1,4 +1,13 @@
 # lane_detect_convert
+
+## Notes
+This is a caffe implementation of the [Ultra-Fast-Lane-Detection](https://github.com/cfzd/Ultra-Fast-Lane-Detection) algorithm, used for my own studies. Modified code are in *lane_detect_convert/caffe_lane_detection*. 
+- This is a proper example of an edge-application running on an edge device.
+- Studied application properties using python
+- This also reads in streaming data that have commonalities, thus is used for the [value-prediction-for-data-commonality](https://github.com/haiyuem/Value-Prediction-for-Input-Data-Commonality) study. The pin.sh script in caffe_lane_detection has the commands for program analysis and trace generation using the Intel [pintool](https://github.com/haiyuem/pintool).
+
+## Below is the original README from repo being forked
+
 @qqqq
 Ultra-Fast-Lane-Detection  
 
